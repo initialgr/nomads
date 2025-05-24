@@ -40,7 +40,7 @@
                     </div>
                   </div>
                   <h2>Tentang Wisata</h2>
-                  <p>{ !! $item->about !! }</p>
+                  <p>{{  $item->about  }}</p>
                   <div class="features row pt-3">
                     <div class="col-md-4">
                       <img src="{{ asset('frontend/images/ic_event.png') }}" alt="" class="features-image" />

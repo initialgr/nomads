@@ -20,6 +20,6 @@ class Gallery extends Model
 
     public function travel_package()
     {
-        return $this->belongsTo(TravelPackage::class, 'travel_package_id', 'id');
+        return $this->belongsTo(TravelPackage::class, 'travel_packages_id', 'id');
     }
 }
